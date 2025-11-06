@@ -16,9 +16,12 @@ onMounted(() => {
 </script>
 
 <template>
-    <div>
+    <div class="text-center mb-4">
         <h1>Home Page</h1>
         <p>Ini adalah halaman Home</p>
+    </div>
+    <div class="flex justify-center mb-4">
+        <h2>Products</h2>
     </div>
     <div class="flex flex-row flex-wrap justify-center">
         <div v-for="product in product" :key="product.id">

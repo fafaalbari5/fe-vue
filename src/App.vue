@@ -21,7 +21,7 @@ const toggleTheme = () => {
 
     <router-view />
     </div>
-    <h1>Hello Its me</h1>
+    <h1 class="flex justify-center">Hello Its me</h1>
     <Footer />
 
   </div>

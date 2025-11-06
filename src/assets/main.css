@@ -10,7 +10,7 @@
   --color-primary-dark: #1f242e;
   --color-secondary: var(--color-green-200);
   --color-secondary-dark: var(--color-green-400);
-  --color-text-normal: var(--color-red-600);
+  --color-text-normal: var(--color-gray-950);
   --color-text-dark: var(--color-gray-400);
 
   --font-deafult: 'Poppins', sans-serif;
