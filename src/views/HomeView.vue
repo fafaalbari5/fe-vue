@@ -12,6 +12,7 @@ const fetchProducts = async ()=> {
 onMounted(() => {
     fetchProducts()
 })
+
 </script>
 
 <template>
@@ -19,5 +20,9 @@ onMounted(() => {
         <h1>Home Page</h1>
         <p>Ini adalah halaman Home</p>
     </div>
-    <CardProduct />
+    <div class="flex flex-row flex-wrap justify-center">
+        <div v-for="product in product" :key="product.id">
+            <CardProduct :product="product" />
+        </div>
+    </div>
 </template>
